@@ -46,6 +46,7 @@ nav .nav-link:active,.nav-link:focus{
     }
 }
 
+
 @media (min-width: 1116px) and (max-width: 1199px){
     nav .navbar-nav{
         margin-left: 90px;
@@ -407,7 +408,13 @@ nav .dropdown>.dropdown-toggle:active {
     .aboutus-section .about-text .section-title h2{
         margin-left: 30px;
     }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        margin-left: 90px;
+    }
 }
+
 
 @media (min-width: 992px){   
     .our-customer-heading{
